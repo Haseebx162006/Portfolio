@@ -2,20 +2,28 @@
   command = "npm run build"
   publish = "dist"
 
+[build.environment]
+  NODE_VERSION = "18"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+
 [[headers]]
   for = "/*.js"
   [headers.values]
     Content-Type = "text/javascript; charset=utf-8"
 
 [[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
   for = "/assets/*.js"
   [headers.values]
     Content-Type = "text/javascript; charset=utf-8"
-
-[[headers]]
-  for = "/*.css"
-  [headers.values]
-    Content-Type = "text/css; charset=utf-8"
 
 [[headers]]
   for = "/assets/*.css"
@@ -26,3 +34,4 @@
   from = "/*"
   to = "/index.html"
   status = 200
+  force = false
