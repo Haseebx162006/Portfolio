@@ -1,0 +1,51 @@
+[
+    {
+        "id": 1,
+        "title": "H-Cloud ",
+        "description": "A production-ready, bucket-based file storage web app with JWT authentication, quota enforcement, and secure file handling",
+        "techStack": [
+            "React",
+            "FastAPI",
+            "PostgreSQL",
+            "Express",
+            "Stripe",
+            "Socket.IO"
+        ],
+        "githubUrl": "https://github.com/Haseebx162006/File-Storage-and-Media-Api",
+        "liveUrl": "https://file-storage-and-media-api.vercel.app/",
+        "image": "/projects/hcloud.png",
+        "featured": true
+    },
+    {
+        "id": 2,
+        "title": "Sheep Acadmy",
+        "description": "A comprehensive learning management system built with Next.js and MERN stack.",
+        "techStack": [
+            "Next.js",
+            "Node.js",
+            "Socket.IO",
+            "MongoDB",
+            "JWT"
+        ],
+        "githubUrl": "https://github.com/hussainjamal760/MERN-LMS",
+        "liveUrl": "https://sheep-academy-v1.onrender.com/",
+        "image": "/projects/mern.png",
+        "featured": true
+    },
+    {
+        "id": 3,
+        "title": "Multi-Vendor E-Commerce Platform",
+        "description": "A scalable e-commerce platform supporting multiple vendors, built with the MERN stack.",
+        "techStack": [
+            "React",
+            "Express",
+            "MongoDB",
+            "Node.js",
+            "REST API"
+        ],
+        "githubUrl": "https://github.com/hussainjamal760/multi-vendor-shippo",
+        "liveUrl": " https://multi-vendor-shippo-1.onrender.com/",
+        "image": "/projects/ecom.png",
+        "featured": false
+    }
+]
