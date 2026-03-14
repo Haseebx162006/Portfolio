@@ -1,8 +1,23 @@
 [
     {
         "id": 1,
+        "title": "COMSOC",
+        "description": "Society Management System, Bringing all COMSATS societies at one page",
+        "techStack": [
+            "Next.js",
+            "Express",
+            "MongoDB",
+            "Node.js",
+            "REST API"
+        ],
+        "githubUrl": "https://github.com/Haseebx162006/Society-Management-System-",
+        "liveUrl": "https://comsoccomsats.vercel.app/",
+        "image": "/projects/image.png",
+        "featured": true
+    },{
+        "id": 4,
         "title": "H-Cloud ",
-        "description": "A production-ready, bucket-based file storage web app with JWT authentication, quota enforcement, and secure file handling",
+        "description": "A production-ready, bucket-based file storage web app with JWT authentication",
         "techStack": [
             "React",
             "FastAPI",
@@ -46,6 +61,7 @@
         "githubUrl": "https://github.com/hussainjamal760/multi-vendor-shippo",
         "liveUrl": " https://multi-vendor-shippo-1.onrender.com/",
         "image": "/projects/ecom.png",
-        "featured": false
+        "featured": true
     }
+    
 ]

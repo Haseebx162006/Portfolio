@@ -1,45 +1,53 @@
 {
-    "name": "Haseeb",
-    "title": "MERN Stack Developer",
-    "tagline": "Building scalable web applications with MongoDB, Express, React & Node.js",
-    "bio": "I'm a passionate Full-Stack Developer specializing in the MERN stack. With expertise in building robust backend systems, real-time applications, and scalable REST APIs, I transform ideas into production-ready solutions. I love tackling complex challenges and creating seamless user experiences.",
-    "location": "Lahore, Pakistan",
-    "email": "haseebahmad0160@gmail.com",
-    "photo": "",
-    "resumeUrl": "/resume.pdf",
-    "social": {
-        "github": "https://github.com/Haseebx162006",
-        "linkedin": "https://www.linkedin.com/in/haseeb-ahmad-6b506a355/",
-        "twitter": "https://twitter.com/yourusername"
+  "name": "Haseeb",
+  "title": "MERN & Flutter Developer",
+  "tagline": "Building scalable web and mobile applications using MERN Stack and Flutter",
+  "bio": "I'm a passionate Full-Stack and Mobile Developer specializing in the MERN stack and Flutter. I build scalable web applications with MongoDB, Express, React, and Node.js, and cross-platform mobile apps using Flutter and Firebase. I enjoy designing efficient backend systems, developing REST APIs, and creating smooth user experiences across both web and mobile platforms.",
+  "location": "Lahore, Pakistan",
+  "email": "haseebahmad0160@gmail.com",
+  "photo": "",
+  "resumeUrl": "/resume.pdf",
+  "social": {
+    "github": "https://github.com/Haseebx162006",
+    "linkedin": "https://www.linkedin.com/in/haseeb-ahmad-6b506a355/",
+    "twitter": "https://twitter.com/yourusername"
+  },
+  "techStack": [
+    {
+      "name": "MongoDB",
+      "icon": "🍃"
     },
-    "techStack": [
-        {
-            "name": "MongoDB",
-            "icon": "🍃"
-        },
-        {
-            "name": "Express.js",
-            "icon": "⚡"
-        },
-        {
-            "name": "React.js",
-            "icon": "⚛️"
-        },
-        {
-            "name": "Node.js",
-            "icon": "💚"
-        },
-        {
-            "name": "REST APIs",
-            "icon": "🔗"
-        },
-        {
-            "name": "Socket.IO",
-            "icon": "🔌"
-        },
-        {
-            "name": "JWT/Auth",
-            "icon": "🔐"
-        }
-    ]
+    {
+      "name": "Express.js",
+      "icon": "⚡"
+    },
+    {
+      "name": "React.js",
+      "icon": "⚛️"
+    },
+    {
+      "name": "Node.js",
+      "icon": "💚"
+    },
+    {
+      "name": "REST APIs",
+      "icon": "🔗"
+    },
+    {
+      "name": "Socket.IO",
+      "icon": "🔌"
+    },
+    {
+      "name": "JWT/Auth",
+      "icon": "🔐"
+    },
+    {
+      "name": "Flutter",
+      "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg"
+    },
+    {
+      "name": "Firebase",
+      "icon": "🔥"
+    }
+  ]
 }
